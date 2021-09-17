@@ -559,19 +559,14 @@ header{
 }
 
 
-.quality-container{ 
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
+.quality-container{
+    width: 80%;
     margin: 0 auto;
 }
 
 
 .quality-container .gallery-2{ 
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
  }
  
  .quality-container .gallery-2 h2 { 
@@ -797,12 +792,12 @@ header{
 
 
     .quality-container{ 
-        flex-direction: row;
+        flex-direction: column;
         width: 90%;
     }
      .quality-container .gallery-1{ 
         padding:0 50px ;
-        width: 50%;
+        width: 100%;
        
         }
      .quality-container .gallery-1 ing{ 
@@ -811,7 +806,7 @@ header{
      }
     .quality-container .gallery-2{ 
         padding:0 50px ;
-        width: 50%;
+        width: 100%;
        
      }
      .quality-container .gallery-2 h2 { 
@@ -820,7 +815,7 @@ header{
        
     }
     .quality-container .gallery-2 hr{ 
-        width: 120%;
+        width: 80%;
         background-color: #E71A23;
         margin: 20px 0;
      }

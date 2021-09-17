@@ -723,10 +723,10 @@ header{
 
 
     .banner-heading h1{ 
-        font-size: 30px;
+        font-size: 35px;
     }
     hr{ 
-        width:90%;
+        width:100%;
     }
 
     .icons-container{

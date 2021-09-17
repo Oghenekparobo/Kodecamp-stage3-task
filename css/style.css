@@ -717,10 +717,20 @@ header{
         width: 80%;
     }
 
-    .icons-container{
-        display:block;
-    }
-    
+.icons-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons-container p{ 
+   font-size: 16px;
+}
+.icons-container img{ 
+    width: 80px;
+}
     
     #help{ 
         text-align: center;
@@ -866,32 +876,26 @@ header{
         font-weight: lighter;
     }
 
-    .about-container .img-gallery{    
-        flex-direction: row;
-        width: 40%;
-        padding: 100px ;
-    
-     }
-     .about-container .img-gallery .showcase-1{ 
-        flex-direction: row;
-     }
-     .about-container .img-gallery .showcase-1 .sub-img{ 
-        width: 50%;
-    }
-    .about-container .img-gallery .showcase-1 .sub-img img{ 
-        width: 50%;
-    }
-     
-     .about-container .img-gallery .showcase-2{ 
-        flex-direction: row; 
-      
-     }
-     .about-container .img-gallery .showcase-2 .sub-img{ 
-        width: 50%;
-    }
-    .about-container .img-gallery .showcase-2 .sub-img img{ 
-        width: 50%;
-    }
+   
+.about-container .img-gallery{ 
+    display: flex;    
+    flex-direction: column;
+    width: 50%;
+
+ }
+ 
+
+ .about-container .img-gallery .showcase-1{ 
+    display: flex;   
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .about-container .img-gallery .showcase-2{ 
+    display: flex;  
+    gap: 2.5rem;  
+  
+ }
 
      #todo{ 
         width: 100%;

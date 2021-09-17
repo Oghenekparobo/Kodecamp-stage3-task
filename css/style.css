@@ -681,7 +681,7 @@ header{
 
 @media(max-width:768px){ 
     nav{ 
-        width: 80%;
+        width: 70%;
         padding: 10px;
     }
 
@@ -703,45 +703,47 @@ header{
 
 
     .banner-heading h4{ 
-        font-size: 28px;   
+        font-size: 38px;   
         
     }
 
 
 
     .banner-heading h1{ 
-        font-size: 30px;
+        font-size: 50px;
     }
+    
     hr{ 
         width: 80%;
     }
 
     .icons-container{
-        display: none;
+        display:block;
     }
     
     
     #help{ 
         text-align: center;
     }
+    
     .help-container{ 
         width: 100%;
         padding: 2px 0;
         text-align: center;
     }
+    
     .help-container p { 
         font-size: 16px;
     }
+    
 
     .help-container h5{ 
-        display: flex;
-        font-size: 20px;
-        gap: .5rem;
-        padding: 0 200px;
+        font-size: 30px;
+        padding: 50px px;
     }
 
     .help-container h1{ 
-        font-size: 20px;
+        font-size: 35px;
        
     }
     #plan{ 
@@ -767,13 +769,13 @@ header{
      }
 
      .plan-container .gallery-2 h2 { 
-        font-size: 26px;
+        font-size: 36px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
     .plan-container .gallery-2 h3{ 
-        font-size: 20px;
+        font-size: 30px;
         color: #E71A23;
         padding-bottom: 40px;
     }
@@ -784,28 +786,34 @@ header{
 
 
     .quality-container{ 
-        flex-direction: column;
+        flex-direction: row;
         width: 90%;
     }
+    .quality-container .gallery-1{ 
+        padding:0 50px ;
+        width: 50%;
+       
+     }
     
     .quality-container .gallery-2{ 
         padding:0 50px ;
-        width: 100%;
+        width: 50%;
        
      }
+    
      .quality-container .gallery-2 h2 { 
-        padding-top: 30px;
+        padding-top: 50px;
         font-size: 25px;
        
     }
     .quality-container .gallery-2 hr{ 
-        width: 100%;
+        width: 60%;
         background-color: #E71A23;
         margin: 20px 0;
      }
 
      .quality-container .gallery-2 p{ 
-        font-size: 16px;
+        font-size: 36px;
         line-height: 1.6;
     }
     .quality-container .gallery-2 p br{ 
@@ -820,24 +828,25 @@ header{
     }
 
     .services-list{ 
-        flex-direction: column;
+        flex-direction: row;
         
       }
       .services-container h1{ 
-        font-size: 20px;
+        font-size: 40px;
         margin: 50px 0;
       }
 
       .service-items{ 
-        width: 100%;
+        width: 30%;
         margin-bottom: 65px;
     }
+    
     #about{ 
         width: 100%;
     }
 
     .about-container{ 
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         text-align: center;
     }
@@ -849,13 +858,8 @@ header{
         padding-bottom: 10px;
     }
     .about-text h3{
-        font-size: 27px;
+        font-size: 37px;
         font-weight: bold;
-    }
-
-    .about-text h3  .span-text{
-        font-size: 67px;
-        
     }
 
     .about-text h6{
@@ -863,30 +867,30 @@ header{
     }
 
     .about-container .img-gallery{    
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row;
+        width: 40%;
         padding: 100px ;
     
      }
      .about-container .img-gallery .showcase-1{ 
-        flex-direction: column;
+        flex-direction: row;
      }
      .about-container .img-gallery .showcase-1 .sub-img{ 
-        width: 100%;
+        width: 50%;
     }
     .about-container .img-gallery .showcase-1 .sub-img img{ 
-        width: 90%;
+        width: 50%;
     }
      
      .about-container .img-gallery .showcase-2{ 
-        flex-direction: column; 
+        flex-direction: row; 
       
      }
      .about-container .img-gallery .showcase-2 .sub-img{ 
-        width: 100%;
+        width: 50%;
     }
     .about-container .img-gallery .showcase-2 .sub-img img{ 
-        width: 90%;
+        width: 50%;
     }
 
      #todo{ 

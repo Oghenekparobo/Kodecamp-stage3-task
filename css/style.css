@@ -558,18 +558,18 @@ header{
 
 
     .quality-container{ 
-        flex-direction: column;
-        width: 90%;
+        flex-direction: row;
+        width: 80%;
     }
     .quality-container .gallery-1{ 
         padding:0 50px ;
-        width: 100%;
+        width: 4%;
        
      }
     
     .quality-container .gallery-2{ 
         padding:0 50px ;
-        width: 100%;
+        width: 40%;
        
      }
     
@@ -643,7 +643,7 @@ header{
 .about-container .img-gallery{ 
     display: flex;    
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 
  }
  

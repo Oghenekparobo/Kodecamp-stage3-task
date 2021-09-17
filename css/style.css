@@ -233,7 +233,8 @@ header{
  }
  
  .quality-container .gallery-2 hr{ 
-   width: 90%;
+   width: 100%;
+   height: 10px;
    background-color: #E71A23;
    margin: 20px 0;
 }

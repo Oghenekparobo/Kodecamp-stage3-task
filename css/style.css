@@ -441,11 +441,11 @@ header{
    }
 
 
-
+/* media quereies starts here */
 
 @media(max-width:430px){ 
     nav{ 
-        width: 80%;
+        width: 60%;
         padding: 10px;
     }
 
@@ -482,9 +482,11 @@ header{
     .icons-container{
         display: none;
     }
+    
     #help{ 
         text-align: center;
     }
+    
     .help-container{ 
         width: 100%;
         padding: 2px 0;
@@ -504,6 +506,7 @@ header{
         font-size: 25px;
        
     }
+    
     #plan{ 
         width: 100%;
         flex-direction: column;
@@ -513,10 +516,12 @@ header{
         width: 100%;
         flex-direction: column;
     }
+    
     #plan .plan-container p{ 
         padding: 9px;
         font-size: 16px;
     }
+    
     .plan-container .gallery-1{ 
         width: 100%;
 
@@ -604,17 +609,18 @@ header{
 
     .about-text{
         width: 100%; 
-        padding-left: 20px;
+/*         padding-left: 20px; */
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .about-text h3{
-        font-size: 37px;
+        font-size: 20px;
         font-weight: bold;
+        display:flex;
     }
 
     .about-text h3  .span-text{
-        font-size: 27px;
+        font-size: 20px;
         
     }
 

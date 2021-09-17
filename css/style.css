@@ -870,6 +870,7 @@ header{
         flex-direction: column;
         width: 100%;
         text-align: center;
+        padding: 0 50px;
     }
 
     .about-text{

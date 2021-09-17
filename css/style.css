@@ -83,7 +83,7 @@ header{
 
 }
 
-hr{ 
+.banner-heading hr{ 
     height: 10px;
     width: 70%;
     background:#fff;

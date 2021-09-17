@@ -473,7 +473,7 @@ header{
 
 
     .banner-heading h1{ 
-        font-size: 80px;
+        font-size: 30px;
     }
     hr{ 
         width:80%;
@@ -490,18 +490,18 @@ header{
         padding: 2px 0;
     }
     .help-container p { 
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .help-container h5{ 
         display: flex;
-        font-size: 25px;
+        font-size: 20px;
         gap: .5rem;
         padding: 30px;
     }
 
     .help-container h1{ 
-        font-size: 35px;
+        font-size: 25px;
        
     }
     #plan{ 
@@ -515,7 +515,7 @@ header{
     }
     #plan .plan-container p{ 
         padding: 9px;
-        font-size: 15px;
+        font-size: 16px;
     }
     .plan-container .gallery-1{ 
         width: 100%;
@@ -527,7 +527,7 @@ header{
      }
 
      .plan-container .gallery-2 h2 { 
-        font-size: 21px;
+        font-size: 18px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -555,7 +555,7 @@ header{
      }
      .quality-container .gallery-2 h2 { 
         padding-top: 30px;
-        font-size: 55px;
+        font-size: 35px;
        
     }
     .quality-container .gallery-2 hr{ 
@@ -565,7 +565,7 @@ header{
      }
 
      .quality-container .gallery-2 p{ 
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
     .quality-container .gallery-2 p br{ 
@@ -584,7 +584,7 @@ header{
         
       }
       .services-container h1{ 
-        font-size: 50px;
+        font-size: 30px;
         margin-bottom: 50px;
       }
 
@@ -614,7 +614,7 @@ header{
     }
 
     .about-text h3  .span-text{
-        font-size: 37px;
+        font-size: 27px;
         
     }
 
@@ -642,7 +642,7 @@ header{
     
       
     .todo-container h2{ 
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .todo-container p{ 
@@ -682,14 +682,14 @@ header{
 
 
     .banner-heading h4{ 
-        font-size: 48px;   
+        font-size: 28px;   
         
     }
 
 
 
     .banner-heading h1{ 
-        font-size: 80px;
+        font-size: 30px;
     }
     hr{ 
         width: 80%;
@@ -698,6 +698,8 @@ header{
     .icons-container{
         display: none;
     }
+    
+    
     #help{ 
         text-align: center;
     }
@@ -707,18 +709,18 @@ header{
         text-align: center;
     }
     .help-container p { 
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .help-container h5{ 
         display: flex;
-        font-size: 25px;
+        font-size: 20px;
         gap: .5rem;
         padding: 0 200px;
     }
 
     .help-container h1{ 
-        font-size: 50px;
+        font-size: 20px;
        
     }
     #plan{ 
@@ -744,13 +746,13 @@ header{
      }
 
      .plan-container .gallery-2 h2 { 
-        font-size: 36px;
+        font-size: 26px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
     .plan-container .gallery-2 h3{ 
-        font-size: 30px;
+        font-size: 20px;
         color: #E71A23;
         padding-bottom: 40px;
     }
@@ -772,7 +774,7 @@ header{
      }
      .quality-container .gallery-2 h2 { 
         padding-top: 30px;
-        font-size: 55px;
+        font-size: 25px;
        
     }
     .quality-container .gallery-2 hr{ 
@@ -782,7 +784,7 @@ header{
      }
 
      .quality-container .gallery-2 p{ 
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
     .quality-container .gallery-2 p br{ 
@@ -801,7 +803,7 @@ header{
         
       }
       .services-container h1{ 
-        font-size: 50px;
+        font-size: 20px;
         margin: 50px 0;
       }
 
@@ -826,7 +828,7 @@ header{
         padding-bottom: 10px;
     }
     .about-text h3{
-        font-size: 67px;
+        font-size: 27px;
         font-weight: bold;
     }
 
@@ -876,11 +878,11 @@ header{
     
       
     .todo-container h2{ 
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .todo-container p{ 
-        font-size: 25px;
+        font-size: 16px;
     }
     todo-container br{ 
         display: none;

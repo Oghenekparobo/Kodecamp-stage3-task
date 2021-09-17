@@ -490,6 +490,7 @@ header{
     .help-container{ 
         width: 100%;
         padding: 2px 0;
+        text-align:center;
     }
     .help-container p { 
         font-size: 16px;
@@ -500,6 +501,7 @@ header{
         font-size: 20px;
 /*         gap: .5rem; */
         padding: 30px 0;
+        margin-rigth:3rem;
     }
    .help-container p{ 
         font-size: 16px;

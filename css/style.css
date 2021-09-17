@@ -859,7 +859,7 @@ header{
     }
     #about{ 
         width: 100%;
-        padding:50px;
+        padding: 0 10px;
     }
 
     .about-container{ 

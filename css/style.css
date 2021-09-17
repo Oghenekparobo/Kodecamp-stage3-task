@@ -805,7 +805,16 @@ header{
         flex-direction: column;
         width: 90%;
     }
-    
+     .quality-container .gallery-1{ 
+        padding:0 50px ;
+        width: 100%;
+       
+        }
+     .quality-container .gallery-1 ing{ 
+       
+        width: 50%;
+       
+     }
     .quality-container .gallery-2{ 
         padding:0 50px ;
         width: 100%;

@@ -443,7 +443,7 @@ header{
 
 /* media quereies starts here */
 
-@media(max-width:430px){ 
+@media(min-width:375px){ 
     nav{ 
         width: 60%;
         padding: 10px;
@@ -679,7 +679,7 @@ header{
     }
 }
 
-@media(min-width:768px){ 
+@media(max-width:768px){ 
     nav{ 
         width: 50%;
         padding: 10px;

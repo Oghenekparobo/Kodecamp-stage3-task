@@ -802,22 +802,21 @@ header{
 
 
     .quality-container{ 
-        flex-direction: column;
+        flex-direction: row;
         width: 90%;
     }
      .quality-container .gallery-1{ 
         padding:0 50px ;
-        width: 100%;
+        width: 50%;
        
         }
      .quality-container .gallery-1 ing{ 
-       
         width: 50%;
        
      }
     .quality-container .gallery-2{ 
         padding:0 50px ;
-        width: 100%;
+        width: 50%;
        
      }
      .quality-container .gallery-2 h2 { 

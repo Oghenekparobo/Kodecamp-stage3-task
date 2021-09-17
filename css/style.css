@@ -552,49 +552,44 @@ header{
         padding-bottom: 40px;
     }
      
-     #quality{ 
-        width: 100%;
-    }
+    
+#quality{ 
+    width: 100%;
+ 
+}
 
 
-    .quality-container{ 
-        flex-direction: row;
-        width: 80%;
-    }
-    .quality-container .gallery-1{ 
-        padding:0 50px ;
-        width: 4%;
-       
-     }
-    
-    .quality-container .gallery-2{ 
-        padding:0 50px ;
-        width: 40%;
-       
-     }
-    
-     .quality-container .gallery-2 h2 { 
-        padding-top: 50px;
-        font-size: 25px;
-       
-    }
-    .quality-container .gallery-2 hr{ 
-        width: 90%;
-        background-color: #E71A23;
-        margin: 20px 0;
-     }
+.quality-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
 
-     .quality-container .gallery-2 p{ 
-        font-size: 20px;
-        line-height: 1.6;
-    }
-    .quality-container .gallery-2 p br{ 
-        display: none;
-    }
-    
-    
 
-     #services{ 
+.quality-container .gallery-2{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ .quality-container .gallery-2 h2 { 
+     font-size: 31px;
+     
+ }
+ 
+ .quality-container .gallery-2 hr{ 
+   width: 80%;
+   
+}
+
+ .quality-container .gallery-2 p{ 
+    font-size: 16px;
+   
+}   
+    
+    #services{ 
         width: 100%;     
         padding:0   50px ;   
     }
@@ -691,7 +686,7 @@ header{
 
 
 
-/* media quereies starts here */
+
 
 @media(max-width:430px){ 
     nav{ 
@@ -863,6 +858,7 @@ header{
     }
     #about{ 
         width: 100%;
+        padding:50px;
     }
 
     .about-container{ 

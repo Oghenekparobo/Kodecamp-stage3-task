@@ -85,7 +85,7 @@ header{
 
 hr{ 
     height: 10px;
-    width: 50%;
+    width: 80%;
     background:#fff;
     border: none;
 }
@@ -850,7 +850,7 @@ hr{
         width: 100%;
     }
     .about-container .img-gallery .showcase-1 .sub-img img{ 
-        width: 100%;
+        width: 90%;
     }
      
      .about-container .img-gallery .showcase-2{ 
@@ -861,7 +861,7 @@ hr{
         width: 100%;
     }
     .about-container .img-gallery .showcase-2 .sub-img img{ 
-        width: 100%;
+        width: 90%;
     }
 
      #todo{ 

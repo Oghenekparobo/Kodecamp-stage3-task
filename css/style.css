@@ -443,7 +443,7 @@ header{
 
 /* media quereies starts here */
 
-@media(min-width:375px){ 
+@media(max-width:375px){ 
     nav{ 
         width: 60%;
         padding: 10px;

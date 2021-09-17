@@ -583,16 +583,19 @@ header{
 
      #services{ 
         width: 100%;     
-        padding:0   50px ;   
+        padding:0   50px ; 
+         text-align:center;
     }
 
     .services-list{ 
         flex-direction: column;
+        text-align-center;
         
       }
       .services-container h1{ 
         font-size: 30px;
         margin-bottom: 50px;
+         
       }
 
       .service-items{ 
@@ -610,11 +613,11 @@ header{
     }
 
     .about-text{
-       width: 32%;  
+       width: 22%;  
         display:flex;
         flex-direction:column;
-        justify-content:center;
-       padding-left: 1px;
+        justify-content: start;
+       padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px; */
     }
@@ -625,7 +628,8 @@ header{
     }
      .about-text h6{
         font-size: 16px;
-         font-weight:lightrt;
+         font-weight:lighter;
+         display:flex;
 
     }
 

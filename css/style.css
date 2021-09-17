@@ -497,9 +497,9 @@ header{
     }
 
     .help-container h5{ 
-/*         display: flex; */
+
         font-size: 20px;
-/*         gap: .5rem; */
+
         padding: 30px 50px;
     }
    .help-container p{ 

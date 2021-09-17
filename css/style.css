@@ -458,7 +458,6 @@ hr{
 
     
 .banner-heading{
-   
     padding-left: 30px;
 }
 
@@ -474,7 +473,7 @@ hr{
         font-size: 80px;
     }
     hr{ 
-        width: 90%;
+        width:80%;
     }
 
     .icons-container{
@@ -557,7 +556,7 @@ hr{
        
     }
     .quality-container .gallery-2 hr{ 
-        width: 100%;
+        width: 120%;
         background-color: #E71A23;
         margin: 20px 0;
      }

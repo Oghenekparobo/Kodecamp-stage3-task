@@ -1,0 +1,890 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.white-text{ 
+    color: #fff;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px ;
+    font-weight: bold;
+}
+
+nav h6{ 
+    font-size:2.5rem;
+    color: #111111;
+    font-weight: bolder;
+    opacity: .1;
+}
+
+.ruloko{ 
+    font-family: 'Ruluko', sans-serif;
+}
+
+
+
+.roboto{ 
+    font-family: 'Roboto', sans-serif;
+}
+
+.archivo{ 
+    font-family: 'Archivo', sans-serif;
+}
+
+.open-sans{ 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{ 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner-heading{
+    padding-top: 150px;
+    padding-left: 120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-heading h4{ 
+    font-size: 70px;
+    letter-spacing: 15px;
+    font-weight: lighter;
+
+    
+}
+
+
+.banner-heading h1{ 
+    font-size: 130px;
+    font-weight: bolder;
+    padding:20px 0;
+
+}
+
+hr{ 
+    height: 10px;
+    width: 50%;
+    background:#fff;
+    border: none;
+}
+
+.icons-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons-container p{ 
+   font-size: 21px;
+}
+.icons-container img{ 
+    width: 155px;
+}
+
+#help{ 
+    width: 100%;
+    padding: 100px;
+    background-color:rgb(235, 230, 230) ;
+    text-align: center;
+}
+
+.help-container{ 
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.help-container h5{ 
+    font-size: 25px;
+    color: #999999;
+    font-weight: lighter;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+.help-container h1{ 
+    font-size: 55px;
+    color: #111111;
+    font-weight: bold;
+    /* line-height: 1.6; */
+}
+
+
+.help-container p{ 
+    font-size: 25px;
+    font-weight: lighter;
+   color: #111111;
+   /* line-height: 1.6; */
+   padding: 30px;
+}
+
+#help .button-container input{ 
+    font-size: 15px;
+    background-color: #E71A23 ;
+    padding: 16px 42px;
+    color: #ffff;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+}
+
+#help .button-container input:hover{ 
+    background-color: #b80a13 ;
+    transition: 1.5s;
+   }
+
+#plan{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.plan-container{ 
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.plan-container .gallery-1{ 
+    width: 50%;
+    text-align: center;
+}
+
+#plan .plan-container p{ 
+    padding: 90px;
+    font-size: 21px;
+}
+
+
+.plan-container .gallery-1 .img-container-1 img{ 
+    width:100%;
+}
+
+
+.plan-container .gallery-2{ 
+   width: 50%;
+}
+
+.plan-container .gallery-2 h2 { 
+    font-size: 41px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.plan-container .gallery-2 h3{ 
+    font-size: 35px;
+    color: #E71A23;
+    padding-bottom: 80px;
+}
+
+
+.plan-container .gallery-2 .img-container-1 img{ 
+    width:100%;
+}
+
+#quality{ 
+    width: 100%;
+    background-color:rgb(209, 201, 201);
+}
+.quality-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.quality-container .gallery-2{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ .quality-container .gallery-2 h2 { 
+     font-size: 91px;
+     color: #104e92;
+ }
+ 
+ .quality-container .gallery-2 hr{ 
+   width: 80%;
+   background-color: #E71A23;
+   margin: 20px 0;
+}
+
+ .quality-container .gallery-2 p{ 
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+
+#quality .button-container input{ 
+    font-size: 15px;
+    background-color: #E71A23 ;
+    padding: 16px 42px;
+    color: #ffff;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+}
+
+#quality .button-container input:hover{ 
+    background-color: #770b11 ;
+    transition: 1.5s;
+}
+
+#services{ 
+    width: 100%;
+    padding: 100px 0 ;
+    
+}
+
+.services-container{ 
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.services-container h1{ 
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+
+.services-list{ 
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.service-items{ 
+    width: 20%;
+    
+}
+
+
+
+.service-items img{ 
+    background-color: red;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.service-text h4{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.service-text p{ 
+  font-size: 23px;
+  font-style: italic;
+}
+
+
+
+
+
+#about{ 
+    width: 100%;
+    background-color:#104e92;
+    padding: 100px 0;
+}
+
+.about-container{ 
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-text{
+    width: 50%;
+    padding-left: 200px;
+    padding-top: 100px;
+    
+}
+
+.about-text h6{
+    font-size: 23px;
+}
+
+.about-text h3{
+    font-size: 97px;
+    font-weight: bold;
+}
+.about-text h3  .span-text{
+    font-size: 77px;
+    font-weight: bolder;
+}
+
+
+
+.about-container .img-gallery{ 
+    display: flex;    
+    flex-direction: column;
+    width: 50%;
+
+ }
+ 
+
+ .about-container .img-gallery .showcase-1{ 
+    display: flex;   
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .about-container .img-gallery .showcase-2{ 
+    display: flex;  
+    gap: 2.5rem;  
+  
+ }
+ 
+ .sub-img img{
+     width: 290px;
+     height: 260px;
+ }
+
+
+ #todo{ 
+    width: 100%;
+    padding: 100px;
+    background-color:rgb(235, 230, 230) ;
+    text-align: center;
+}
+
+.todo-container{ 
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.todo-container h5{ 
+    font-size: 25px;
+    color: #999999;
+    font-weight: lighter;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+.todo-container h2{ 
+    font-size: 61px;
+    color: #111111;
+    font-weight: bold;
+    /* line-height: 1.6; */
+}
+
+
+.todo-container p{ 
+    font-size: 35px;
+    font-weight: lighter;
+   color: #111111;
+   /* line-height: 1.6; */
+   padding: 30px;
+}
+
+.todo-container .btn{ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.todo-container .btn .button-container-1 .call-btn{ 
+    font-size: 15px;
+    background: transparent;
+    padding: 16px 42px;
+    color: #454545;
+    border: 1px solid #4545;
+}
+
+#todo .button-container input{ 
+    font-size: 15px;
+    background-color: #E71A23 ;
+    padding: 16px 42px;
+    color: #ffff;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+}
+
+#todo .button-container input:hover{ 
+    background-color: #b80a13 ;
+    transition: 1.5s;
+   }
+
+
+
+
+@media(max-width:430px){ 
+    nav{ 
+        width: 80%;
+        padding: 10px;
+    }
+
+    header{ 
+        width: 100%;
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    
+.banner-heading{
+   
+    padding-left: 30px;
+}
+
+
+    .banner-heading h4{ 
+        font-size: 48px;   
+        
+    }
+
+
+
+    .banner-heading h1{ 
+        font-size: 80px;
+    }
+    hr{ 
+        width: 90%;
+    }
+
+    .icons-container{
+        display: none;
+    }
+    #help{ 
+        text-align: center;
+    }
+    .help-container{ 
+        width: 100%;
+        padding: 2px 0;
+    }
+    .help-container p { 
+        font-size: 20px;
+    }
+
+    .help-container h5{ 
+        display: flex;
+        font-size: 25px;
+        gap: .5rem;
+        padding: 30px;
+    }
+
+    .help-container h1{ 
+        font-size: 35px;
+       
+    }
+    #plan{ 
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .plan-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    #plan .plan-container p{ 
+        padding: 9px;
+        font-size: 15px;
+    }
+    .plan-container .gallery-1{ 
+        width: 100%;
+
+    }
+    
+    .plan-container .gallery-2{ 
+        width: 100%;
+     }
+
+     .plan-container .gallery-2 h2 { 
+        font-size: 21px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .plan-container .gallery-2 h3{ 
+        font-size: 19px;
+        color: #E71A23;
+        padding-bottom: 40px;
+    }
+     
+     #quality{ 
+        width: 100%;
+    }
+
+
+    .quality-container{ 
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .quality-container .gallery-2{ 
+        padding:0 50px ;
+        width: 100%;
+       
+     }
+     .quality-container .gallery-2 h2 { 
+        padding-top: 30px;
+        font-size: 55px;
+       
+    }
+    .quality-container .gallery-2 hr{ 
+        width: 100%;
+        background-color: #E71A23;
+        margin: 20px 0;
+     }
+
+     .quality-container .gallery-2 p{ 
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .quality-container .gallery-2 p br{ 
+        display: none;
+    }
+    
+    
+
+     #services{ 
+        width: 100%;     
+        padding:0   50px ;   
+    }
+
+    .services-list{ 
+        flex-direction: column;
+        
+      }
+      .services-container h1{ 
+        font-size: 50px;
+        margin-bottom: 50px;
+      }
+
+      .service-items{ 
+        width: 100%;
+        margin-bottom: 65px;
+    }
+    #about{ 
+        width: 100%;
+    }
+
+    .about-container{ 
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-text{
+        width: 100%; 
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .about-text h3{
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .about-text h3  .span-text{
+        font-size: 37px;
+        
+    }
+
+    .about-container .img-gallery{    
+        flex-direction: column;
+        width: 100%;
+    
+     }
+     .about-container .img-gallery .showcase-1{ 
+        flex-direction: column;
+     }
+     
+     .about-container .img-gallery .showcase-2{ 
+        flex-direction: column; 
+      
+     }
+
+     #todo{ 
+        width: 100%;
+    }
+
+    .todo-container{ 
+        width: 100%;
+    }
+    
+      
+    .todo-container h2{ 
+        font-size: 30px;
+    }
+
+    .todo-container p{ 
+        font-size: 20px;
+    }
+    
+    .todo-container .btn{ 
+        flex-direction: column;
+    }
+
+    #quality .quality-container .gallery-1 img{ 
+        width: 90%;
+    }
+}
+
+@media(max-width:768px){ 
+    nav{ 
+        width: 80%;
+        padding: 10px;
+    }
+
+    header{ 
+        width: 100%;
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    
+.banner-heading{
+   
+    padding-left: 30px;
+}
+
+
+    .banner-heading h4{ 
+        font-size: 48px;   
+        
+    }
+
+
+
+    .banner-heading h1{ 
+        font-size: 80px;
+    }
+    hr{ 
+        width: 80%;
+    }
+
+    .icons-container{
+        display: none;
+    }
+    #help{ 
+        text-align: center;
+    }
+    .help-container{ 
+        width: 100%;
+        padding: 2px 0;
+        text-align: center;
+    }
+    .help-container p { 
+        font-size: 20px;
+    }
+
+    .help-container h5{ 
+        display: flex;
+        font-size: 25px;
+        gap: .5rem;
+        padding: 0 200px;
+    }
+
+    .help-container h1{ 
+        font-size: 50px;
+       
+    }
+    #plan{ 
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .plan-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    #plan .plan-container p{ 
+        padding: 9px;
+        font-size: 16px;
+    }
+    .plan-container .gallery-1{ 
+        width: 100%;
+
+    }
+    
+    .plan-container .gallery-2{ 
+        width: 100%;
+     }
+
+     .plan-container .gallery-2 h2 { 
+        font-size: 36px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .plan-container .gallery-2 h3{ 
+        font-size: 30px;
+        color: #E71A23;
+        padding-bottom: 40px;
+    }
+     
+     #quality{ 
+        width: 100%;
+    }
+
+
+    .quality-container{ 
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .quality-container .gallery-2{ 
+        padding:0 50px ;
+        width: 100%;
+       
+     }
+     .quality-container .gallery-2 h2 { 
+        padding-top: 30px;
+        font-size: 55px;
+       
+    }
+    .quality-container .gallery-2 hr{ 
+        width: 100%;
+        background-color: #E71A23;
+        margin: 20px 0;
+     }
+
+     .quality-container .gallery-2 p{ 
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .quality-container .gallery-2 p br{ 
+        display: none;
+    }
+    
+    
+
+     #services{ 
+        width: 100%;     
+        padding:0   50px ;   
+    }
+
+    .services-list{ 
+        flex-direction: column;
+        
+      }
+      .services-container h1{ 
+        font-size: 50px;
+        margin: 50px 0;
+      }
+
+      .service-items{ 
+        width: 100%;
+        margin-bottom: 65px;
+    }
+    #about{ 
+        width: 100%;
+    }
+
+    .about-container{ 
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-text{
+        width: 50%; 
+        padding-left: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .about-text h3{
+        font-size: 67px;
+        font-weight: bold;
+    }
+
+    .about-text h3  .span-text{
+        font-size: 67px;
+        
+    }
+
+    .about-text h6{
+        font-weight: lighter;
+    }
+
+    .about-container .img-gallery{    
+        flex-direction: column;
+        width: 100%;
+        padding: 100px ;
+    
+     }
+     .about-container .img-gallery .showcase-1{ 
+        flex-direction: column;
+     }
+     .about-container .img-gallery .showcase-1 .sub-img{ 
+        width: 100%;
+    }
+    .about-container .img-gallery .showcase-1 .sub-img img{ 
+        width: 100%;
+    }
+     
+     .about-container .img-gallery .showcase-2{ 
+        flex-direction: column; 
+      
+     }
+     .about-container .img-gallery .showcase-2 .sub-img{ 
+        width: 100%;
+    }
+    .about-container .img-gallery .showcase-2 .sub-img img{ 
+        width: 100%;
+    }
+
+     #todo{ 
+        width: 100%;
+    }
+
+    .todo-container{ 
+        width: 100%;
+    }
+    
+      
+    .todo-container h2{ 
+        font-size: 60px;
+    }
+
+    .todo-container p{ 
+        font-size: 25px;
+    }
+    todo-container br{ 
+        display: none;
+    }
+    
+    .todo-container .btn{ 
+        flex-direction: column;
+    }
+
+    #quality .quality-container .gallery-1 img{ 
+        width: 90%;
+    }
+}

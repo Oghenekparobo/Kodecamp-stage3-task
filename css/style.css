@@ -703,14 +703,14 @@ header{
 
 
     .banner-heading h4{ 
-        font-size: 38px;   
+        font-size: 48px;   
         
     }
 
 
 
     .banner-heading h1{ 
-        font-size: 50px;
+        font-size: 55px;
     }
     
     hr{ 
@@ -726,7 +726,7 @@ header{
 }
 
 .icons-container p{ 
-   font-size: 16px;
+   font-size: 20px;
 }
 .icons-container img{ 
     width: 80px;
@@ -743,17 +743,17 @@ header{
     }
     
     .help-container p { 
-        font-size: 16px;
+        font-size: 18px;
     }
     
 
     .help-container h5{ 
-        font-size: 30px;
+        font-size: 40px;
         padding: 50px px;
     }
 
     .help-container h1{ 
-        font-size: 35px;
+        font-size: 45px;
        
     }
     #plan{ 
@@ -767,7 +767,7 @@ header{
     }
     #plan .plan-container p{ 
         padding: 9px;
-        font-size: 16px;
+        font-size: 18px;
     }
     .plan-container .gallery-1{ 
         width: 100%;
@@ -779,13 +779,13 @@ header{
      }
 
      .plan-container .gallery-2 h2 { 
-        font-size: 36px;
+        font-size: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
     .plan-container .gallery-2 h3{ 
-        font-size: 30px;
+        font-size: 35px;
         color: #E71A23;
         padding-bottom: 40px;
     }
@@ -823,7 +823,7 @@ header{
      }
 
      .quality-container .gallery-2 p{ 
-        font-size: 36px;
+        font-size: 20px;
         line-height: 1.6;
     }
     .quality-container .gallery-2 p br{ 
@@ -889,11 +889,13 @@ header{
     display: flex;   
     gap: 2.5rem;
     margin-bottom: 1rem;
+     width:45%
  }
 
  .about-container .img-gallery .showcase-2{ 
     display: flex;  
     gap: 2.5rem;  
+     width:45%;
   
  }
 
@@ -907,11 +909,11 @@ header{
     
       
     .todo-container h2{ 
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .todo-container p{ 
-        font-size: 16px;
+        font-size: 20px;
     }
     todo-container br{ 
         display: none;
@@ -921,7 +923,4 @@ header{
         flex-direction: column;
     }
 
-    #quality .quality-container .gallery-1 img{ 
-        width: 90%;
-    }
 }

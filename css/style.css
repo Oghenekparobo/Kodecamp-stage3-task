@@ -608,9 +608,10 @@ header{
 
     .about-text{
         width: 20%; 
-        padding-left: 10px;
+        font-size:1px;
+/*         padding-left: 10px;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 10px; */
     }
     .about-text h3{
         font-size: 20px;

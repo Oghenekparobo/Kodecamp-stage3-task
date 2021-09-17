@@ -500,8 +500,7 @@ header{
 /*         display: flex; */
         font-size: 20px;
 /*         gap: .5rem; */
-        padding: 30px 0;
-        margin-rigth:3rem;
+        padding: 30px 50px;
     }
    .help-container p{ 
         font-size: 16px;

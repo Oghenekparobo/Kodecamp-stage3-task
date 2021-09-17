@@ -495,10 +495,11 @@ header{
     
     #help{ 
         text-align: center;
+         width: 100%;
     }
     
     .help-container{ 
-        width: 100%;
+        width: 90%;
         padding: 2px 0;
         text-align: center;
     }
@@ -523,7 +524,7 @@ header{
     }
 
     .plan-container{
-        width: 100%;
+        width: 80%;
         flex-direction: column;
     }
     #plan .plan-container p{ 
@@ -557,18 +558,18 @@ header{
 
 
     .quality-container{ 
-        flex-direction: row;
+        flex-direction: column;
         width: 90%;
     }
     .quality-container .gallery-1{ 
         padding:0 50px ;
-        width: 50%;
+        width: 100%;
        
      }
     
     .quality-container .gallery-2{ 
         padding:0 50px ;
-        width: 50%;
+        width: 100%;
        
      }
     
@@ -578,7 +579,7 @@ header{
        
     }
     .quality-container .gallery-2 hr{ 
-        width: 60%;
+        width: 90%;
         background-color: #E71A23;
         margin: 20px 0;
      }
@@ -608,7 +609,7 @@ header{
       }
 
       .service-items{ 
-        width: 30%;
+        width: 40%;
         margin-bottom: 65px;
     }
     
@@ -617,14 +618,14 @@ header{
     }
 
     .about-container{ 
-        flex-direction: row;
-        width: 70%;
+        flex-direction: column;
+        width: 80%;
         margin: auto;
         text-align: center;
     }
 
     .about-text{
-        width: 50%; 
+        width: 100%; 
         padding-left: 150px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -642,7 +643,7 @@ header{
 .about-container .img-gallery{ 
     display: flex;    
     flex-direction: column;
-    width: 30%;
+    width: 100%;
 
  }
  

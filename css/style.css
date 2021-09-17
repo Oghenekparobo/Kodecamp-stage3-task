@@ -452,10 +452,10 @@ header{
     header{ 
         width: 100%;
         flex-direction: column;
-        background-position: center;
+/*         background-position: center;
         background-size: cover;
         justify-content: center;
-        align-content: center;
+        align-content: center; */
         
     }
 

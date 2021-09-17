@@ -679,7 +679,7 @@ header{
     }
 }
 
-@media(max-width:768px){ 
+@media(min-width:768px){ 
     nav{ 
         width: 50%;
         padding: 10px;
@@ -749,7 +749,7 @@ header{
 
     .help-container h5{ 
         font-size: 40px;
-        padding: 50px px;
+        padding: 50px 0px;
     }
 
     .help-container h1{ 
@@ -857,7 +857,8 @@ header{
 
     .about-container{ 
         flex-direction: row;
-        width: 100%;
+        width: 70%;
+        margin: auto;
         text-align: center;
     }
 
@@ -880,7 +881,7 @@ header{
 .about-container .img-gallery{ 
     display: flex;    
     flex-direction: column;
-    width: 50%;
+    width: 30%;
 
  }
  

@@ -572,7 +572,7 @@ header{
  }
  
  .quality-container .gallery-1 img{ 
-    width: 250spx;
+    width: 250px;
  }
 
 .quality-container .gallery-2{ 
@@ -611,6 +611,7 @@ header{
       .service-items{ 
         width: 40%;
         margin-bottom: 65px;
+          padding-left:1rem;
     }
     
     #about{ 

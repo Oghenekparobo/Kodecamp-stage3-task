@@ -569,10 +569,11 @@ header{
     
     .quality-container .gallery-1{ 
     width: 45%;
+        margin-right:2rem;
  }
  
 .quality-container .gallery-2 img{ 
-    width: 25%;
+    width: 250px;
  }
 
 .quality-container .gallery-2{ 
@@ -798,6 +799,7 @@ header{
      
      #quality{ 
         width: 100%;
+         padding:30px;
     }
 
 

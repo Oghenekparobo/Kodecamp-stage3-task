@@ -569,11 +569,11 @@ header{
 }
     .quality-container .gallery-1{ 
         width: 300px;
-        margin-right:2rem;
+        padding-right:5rem;
  }
  
 .quality-container .gallery-2 img{ 
-    width: 100%;
+    width: 50%;
  }
 
 .quality-container .gallery-2{ 

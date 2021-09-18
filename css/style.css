@@ -447,6 +447,7 @@ footer{
 }
 
 footer p:nth-of-type(2){ 
+    margin-top:50px;
     padding: 70px 0 0 0;
 }
 

@@ -444,7 +444,7 @@ header{
 
 @media(max-width:768px){ 
     nav{ 
-        width: 50%;
+        width: 70%;
         padding: 10px;
     }
 
@@ -572,7 +572,7 @@ header{
  }
  
  .quality-container .gallery-1 img{ 
-    width: 150px;
+    width: 65px;
  }
 
 .quality-container .gallery-2{ 

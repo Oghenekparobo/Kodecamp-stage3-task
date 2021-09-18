@@ -57,7 +57,7 @@ header{
     background: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-positon:center;
+/*     background-positon:center; */
     object-fit:cover;
 }
 
@@ -570,7 +570,7 @@ header{
         padding-right:5rem;
  }
  
-.quality-container .gallery-2 img{ 
+.quality-container .gallery-1 img{ 
     width: 4em;
  }
 

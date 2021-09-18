@@ -58,6 +58,7 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
     background-positon:center;
+    object-fit:cover;
 }
 
 .banner-heading{
